@@ -1,0 +1,18 @@
+.wrapper, .sidebar {
+    width: 400px;
+    height: 700px;
+    background: #fff;
+    padding: 10px 8%;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+.main {
+    width: 400px;
+    height: 700px;
+    background: #fff;
+    padding: 10px 8%;
+    margin-top: 30px;
+    margin-left: 1000px;
+    border-radius: 30px;
+}

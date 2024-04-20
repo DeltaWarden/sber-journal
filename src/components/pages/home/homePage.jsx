@@ -1,7 +1,6 @@
 import { useState } from 'react'
-import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
 import Keycloak from 'keycloak-js';
+import './homePage.css'
 
 
 
@@ -18,9 +17,8 @@ export default function homePage() {
     };
 
     return (
-        <Box sx={{ minWidth: 120 }}>
-            <h1>Это главная страница</h1>
-            <Button variant="contained" onClick={handleClick}>Войти</Button>
-        </Box>
+        <div className="wrapper">
+
+        </div>
     )
 }
