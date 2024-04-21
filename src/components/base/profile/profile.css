@@ -1,0 +1,53 @@
+.avatar {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    background: #fff;
+    padding: 10px 8%;
+    margin-top: -680px;
+    margin-left: 450px;
+    border-radius: 15px;
+}
+
+.info {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    padding: 10px 8%;
+    margin-top: -300px;
+    margin-left: 900px;
+    border-radius: 15px;
+}
+
+.info-bottom {
+    position: relative;
+    width: 750px;
+    height: 330px;
+    background: #fff;
+    padding: 10px 8%;
+    margin-top: 50px;
+    margin-left: 450px;
+    border-radius: 15px;
+}
+
+
+.text-l {
+    color: #444;
+}
+
+
+.gray {
+    color: #444;
+}
+
+.number {
+    margin-top: 20px;
+}
+
+.numberbtn {
+    margin-left: 20px;
+    color: white;
+    background: #148F2B;
+}
+

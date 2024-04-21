@@ -1,11 +1,14 @@
 import React from 'react'
 import './logbtn.css'
+import { useKeycloak } from "@react-keycloak/web";
 
 const logbtn = () => {
+  const { keycloak, initialized } = useKeycloak();
+
   return (
-    <div className="button">
-        Войти
-    </div>
+    <button className='button' onClick={keycloak.loginRequired}>
+      <span>Войти</span>
+    </button>
   )
 }
 
